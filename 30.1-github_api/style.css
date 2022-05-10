@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 3rem;
+  background: lightgray;
+}
+
+#input,
+#search {
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+#search {
+  cursor: pointer;
+  background: lightblue;
+  margin-left: 1rem;
+}
+
+#search:hover {
+  background: rgb(143, 200, 233);
+}
+
+.error {
+  color: red;
+  height: 2rem;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.user-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1500px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 10px;
+  background: peru;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.7s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-size: 2.5rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
